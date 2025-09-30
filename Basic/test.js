@@ -141,3 +141,22 @@ console.log(user2.email);
 
 
 */
+
+/*
+
+let y=10; // global variable
+function add(){
+    let x=20;  // local variable
+    console.log(`Sum of x and y is: ${x+y}` );
+}
+add(); // calling function
+
+*/
+
+const name= new String("Goodmorning");
+console.log(name);
+console.log(typeof name);
+console.log(name.toUpperCase());
+console.log(typeof name.valueOf());
+console.log(name.length);
+console.log(typeof name.toString());
