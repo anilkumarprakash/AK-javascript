@@ -105,3 +105,39 @@ console.log(name.trim());
 
 */
 
+/*
+
+let x=11;
+let y=20;
+let str="Hello";
+
+console.log(x-=y);
+console.log(x+=y);
+console.log(x*=y);
+console.log(x==y);
+console.log(x===y);
+console.log(x!=y);
+let z=0
+console.log(`Check Z: $(!z)`);
+
+*/
+
+// ------------------------------------------------------------------------
+
+/*
+// Stack (Premitive) , Heap (Non-Premitive) memory
+
+
+let user={
+    email: "1234@google.com",
+    phonenum:1234569
+};
+let user2=user;  // Stack memory
+console.log(user.email);
+console.log(user2.phonenum);
+user2.email="ank@info.com";  // change in user2 also reflect in user (heap memory)
+console.log(user.email);
+console.log(user2.email);
+
+
+*/
