@@ -152,7 +152,7 @@ function add(){
 add(); // calling function
 
 */
-
+/*
 const name= new String("Goodmorning");
 console.log(name);
 console.log(typeof name);
@@ -160,3 +160,11 @@ console.log(name.toUpperCase());
 console.log(typeof name.valueOf());
 console.log(name.length);
 console.log(typeof name.toString());
+*/
+
+function myfunction(name, age){
+    console.log(`My Name is: ${name} and My Age is: ${age}`);   
+}
+let userName = prompt("Please enter your name:");
+let age = prompt("Enter your age: ");
+myfunction(name,age);
