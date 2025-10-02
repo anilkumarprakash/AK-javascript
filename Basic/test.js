@@ -161,10 +161,28 @@ console.log(typeof name.valueOf());
 console.log(name.length);
 console.log(typeof name.toString());
 */
-
+/*
 function myfunction(name, age){
     console.log(`My Name is: ${name} and My Age is: ${age}`);   
 }
 let userName = prompt("Please enter your name:");
 let age = prompt("Enter your age: ");
 myfunction(name,age);
+*/
+
+const doc = document.getElementById("demo").innerHTML = "Hello Document Object Model!";
+console.log(doc);
+document.getElementById('demo').style.color = "Green";
+document.getElementById('demo').id
+document.getElementById('demo').setAttribute('class', 'blue');
+document.getElementById('first').className = "blue";
+document.getElementById('first').getAttribute('class');
+
+const txt = document.getElementById('first')
+txt.style.backgroundColor="yellow";
+txt.style.fontSize="20px";
+txt.style.border="2px solid red";
+txt.style.color="red";  
+txt.style.padding="30px";
+txt.style.borderRadius="20px";
+txt.style.textAlign="center";
