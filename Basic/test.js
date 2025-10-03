@@ -169,6 +169,7 @@ let userName = prompt("Please enter your name:");
 let age = prompt("Enter your age: ");
 myfunction(name,age);
 */
+/*
 
 const doc = document.getElementById("demo").innerHTML = "Hello Document Object Model!";
 console.log(doc);
@@ -186,3 +187,5 @@ txt.style.color="red";
 txt.style.padding="30px";
 txt.style.borderRadius="20px";
 txt.style.textAlign="center";
+
+*/
